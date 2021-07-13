@@ -21,6 +21,26 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Express](https://expressjs.com/pt-br/)
 - [JSONWebToken](https://github.com/auth0/node-jsonwebtoken#readme)
 
+## Alguns comandos
+
+- `yarn init -y` - cria o projeto
+- `yarn add typescript -D` -> insere a biblioteca typescript como biblioteca de desenvolvimento
+node index.js -> executa um arquivo (precisa estar em javascript)
+- `yarn tsc --init` -> inicializar o typescript
+- `yarn tsc` -> converte o código para javascript
+
+- `yarn add express` -> instala o express, framework pra criar rotas, recursos, etc
+- `yarn add @types/express -D` -> instala as tipagens
+
+- `yarn add ts-node-dev -D` -> automatiza o processo de conversão de ts para js
+```ts
+package.json:
+ "scripts" : {
+    "dev": "ts-node-dev src/server.ts"
+  }
+```
+`yarn dev` - inicia a aplicação, fazendo o reload automático
+
 ## 💻 Projeto
 
 Valoriza é uma plataforma para promover o reconhecimento entre companheiros de equipe.
