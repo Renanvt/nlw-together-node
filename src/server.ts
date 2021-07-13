@@ -22,3 +22,7 @@ app.get("/test", (request, response) => {
     //Response => Saindo
     return response.send("Olá NLW!"); //Retorna uma mensagem
 })
+
+app.post("/test-post", (request, response) =>{
+    return response.send("Olá NLW método POST"); //Retorna uma mensagem
+})
